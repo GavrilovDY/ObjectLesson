@@ -102,6 +102,6 @@ logger.keysAndValue.call(person);
 //Внимание! 1-й параметр - это объект откуда вызываем метод withParams
 //Остальные - это параметры метода withParams
 logger.withParams.call(person, true, true, true);
-
+//
 //тоже самое что и колл только параметры вызываемой функции передаются в виде массива
 logger.withParams.apply(person, [true, true, true]);
